@@ -1,0 +1,15 @@
+{
+  "name": "@observablehq/vega-lite",
+  "version": "0.1.0",
+  "description": "A convenience method for using Vega-Lite.",
+  "keywords": [
+    "vega",
+    "vega-lite"
+  ],
+  "homepage": "https://github.com/observablehq/vega",
+  "repository": "https://github.com/observablehq/vega",
+  "license": "ISC",
+  "author": {
+    "name": "Observable, Inc."
+  }
+}

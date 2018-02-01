@@ -1,0 +1,14 @@
+{
+  "name": "@observablehq/vega",
+  "version": "0.1.0",
+  "description": "A convenience method for using Vega.",
+  "keywords": [
+    "vega"
+  ],
+  "homepage": "https://github.com/observablehq/vega",
+  "repository": "https://github.com/observablehq/vega",
+  "license": "ISC",
+  "author": {
+    "name": "Observable, Inc."
+  }
+}
