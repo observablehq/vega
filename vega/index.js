@@ -6,7 +6,15 @@ define(["https://bundle.run/vega-embed@3"], function(VegaEmbed) {
 
   return function vegalite(spec, options) {
     var div = document.createElement("div");
-    return VegaEmbed.default(div, spec, Object.assign(options || {}, {mode: "vega"}))
+    return VegaEmbed.default(div, spec, Object.assign(
+        options || {},
+        {
+          mode: "vega",
+          actions: Object.assign(
+            {source: false},
+            options ? options.actions || {} : {})
+        })
+      )
       .then(function(result) {
         div.value = result.view;
         return div;
