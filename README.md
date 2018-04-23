@@ -46,3 +46,15 @@ vegalite({
   }
 })
 ```
+
+You can pass all [Vega-Embed options](https://github.com/vega/vega-embed#options) as the second argument (besides the specification). For example, to change the renderer to SVG use:
+
+```js
+view = viewof vegalite(spec, {renderer: 'svg'})
+```
+
+To get the [Vega view object](https://vega.github.io/vega/docs/api/view/), you can use `viewof`:
+
+```js
+view = viewof vegalite(spec)
+```
