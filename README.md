@@ -1,5 +1,7 @@
 # @observablehq/vega
 
+**We now recommend that you use [Vega-Embed](https://github.com/vega/vega-embed) instead of this method. See [this notebook](https://beta.observablehq.com/@domoritz/hello-vega-embed) for examples.**
+
 Convenience methods for using [Vega](https://github.com/vega/vega) and [Vega-Lite](https://github.com/vega/vega-lite) in [Observable](https://observablehq.com). See this notebook for examples:
 
 https://beta.observablehq.com/@mbostock/exploring-data-with-vega-lite
