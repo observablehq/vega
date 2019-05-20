@@ -1,0 +1,10 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "vega-lite/package.json",
+        "vega/package.json"
+      ]
+    }
+  }
+}
