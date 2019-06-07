@@ -10,5 +10,8 @@
   "license": "ISC",
   "author": {
     "name": "Observable, Inc."
+  },
+  "peerDependencies": {
+    "vega": "5"
   }
 }
