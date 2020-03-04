@@ -1,6 +1,6 @@
 {
   "name": "@observablehq/vega-lite",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A convenience method for using Vega-Lite.",
   "keywords": [
     "vega",
@@ -14,6 +14,6 @@
   },
   "peerDependencies": {
     "vega": "5",
-    "vega-lite": "3"
+    "vega-lite": "4"
   }
 }
