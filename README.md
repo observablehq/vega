@@ -7,7 +7,7 @@ https://beta.observablehq.com/@mbostock/exploring-data-with-vega-lite
 To load Vega-Lite:
 
 ```js
-vegalite = require("@observablehq/vega-lite@0.2")
+vegalite = require("@observablehq/vega-lite@0.3")
 ```
 
 To display a happy little chart:
